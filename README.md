@@ -66,10 +66,12 @@ The script generates plots showing the "Actual vs. Predicted" prices, allowing y
 
 ## Project Structure
 
-├── stock_prediction_project.ipynb # Main source code (Data prep, Modeling, Eval)
-├── requirements.txt # Python dependencies
-├── LICENSE # Project Licensed
-└── README.md # Project documentation
+```text
+├── stock_prediction_project.ipynb  # Main source code (Data prep, Modeling, Eval) 
+├── requirements.txt                # Python dependencies 
+├── LICENSE                         # Project Licensed 
+└── README.md                       # Project documentation
+```
 
 ## License
 
