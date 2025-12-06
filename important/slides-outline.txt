@@ -1,0 +1,44 @@
+Slide 1: Title Slide
+    - Project Name: Stock Price Prediction with Multi-Agent Validation
+    - Names of all presenters
+    - Photos of all presenters
+
+Slide 2: The Problem
+    - Stock market prediction is non-linear and chaotic.
+    - The Gap: Deep Learning models are "Black Boxes"—they give a number but no reasoning.
+    - Our Solution: A Neuro-Symbolic approach combining LSTM with Agentic AI for validation.
+
+Slide 3: Data Pipeline
+    - Source: Yahoo Finance (AAPL, TSLA, MSFT).
+    - Uniqueness: Custom Web Scraper for FinViz sentiment data.
+    - Features: 15 Technical Indicators (RSI, MACD, Bollinger Bands, etc.).
+    - Preprocessing: MinMax Scaling, Time-Series sequences (60-day lookback).
+
+Slide 4: Methodology - The Neural Networks
+    - Baseline: ANN (3 Layers).
+    - Advanced: LSTM (2 Layers).
+    - Novelty: Attention-LSTM (Focuses on specific historical days).
+    - Visual: Diagram of Attention weights.
+
+Slide 5: Methodology - The Multi-Agent System (Bonus Requirement)
+    - Technical Agent: "If RSI > 70, doubt the bullish prediction."
+    - Sentiment Agent: Scrapes news -> TextBlob -> Sentiment Score.
+    - Meta-Agent: Calculates confidence weighted average (70% Tech / 30% Sentiment).
+    - Logic: If Agents disagree with LSTM, the prediction is dampened/adjusted.
+
+Slide 6: Results - Quantitative
+    - Comparison: ANN vs. LSTM vs. Attention vs. Agent-Enhanced.
+    - Key Stat: Agent System improved MSFT accuracy by 11.53%.
+    - Key Stat: AAPL improved by 7.45%.
+    - Nuance: TSLA performed best with raw Attention-LSTM (Agents were too conservative on volatile memes).
+
+Slide 7: Results - Qualitative
+    - Visual: Show the graph of MSFT Prediction vs. Actual.
+    - Visual: Show the "Agent Adjustment" bar chart (green/red bars) from the notebook.
+    - Directional Accuracy: ~53% (Consistent with efficient market hypothesis).
+
+Slide 8: Conclusion & Future Work
+    - Conclusion: Hybrid Neuro-Symbolic AI creates robust, explainable financial models.
+    - Future Work: Replace LSTM with Transformers; Integrate Reddit/Twitter API for faster sentiment.
+
+Slide 9: Q&A
