@@ -5,3 +5,6 @@ seaborn
 yfinance
 scikit-learn
 tensorflow
+ipykernel
+textblob
+beautifulsoup4
